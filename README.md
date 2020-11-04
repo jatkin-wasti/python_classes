@@ -24,10 +24,12 @@ class Dog:
 ```
 ## OOP (Object Oriented Programming)
 ### Four pillars
-- Abstraction: Showing only what's 
-- Encapsulation: 
-- Inheritance: An object can acquire the properties of another (super) object
-- Polymorphism: 
+- Abstraction: Showing only what's necessary of an object the other parts of your program
+- Encapsulation: Wrapping up data (class variables) and functionality (methods) together into a single place
+- Inheritance: An object can acquire the properties of another (super) object. This helps to reuse, customise and 
+enhance existing code
+- Polymorphism: Refers to a programming languages ability to process objects differently depending on their data type 
+or class. More specifically it is the ability to redefine methods for derived classes
 ### Creating an object
 - Syntax is
 ```
@@ -45,7 +47,6 @@ object_name.class_function()
 - If you make a change to a class, it will carry those changes over to any instances of that class
 - Or any other classes that inherit from it
 - If you change class values for a specific object i.e. using ```object_name.class_variable = new_value```, it will NOT affect other instances of that class
-- 
 ## Tasks
 ### Task
 - Create a Cat class with one function that returns a "Meow"
