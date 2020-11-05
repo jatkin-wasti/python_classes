@@ -24,3 +24,4 @@ print(lassie.bark())  # Showcasing that both Dog objects can access the same met
 fluffy.animal_kind = "Big Dog"  # Changing the value held in the class variable
 print(fluffy.animal_kind)  # This changes the value for that instance
 print(lassie.animal_kind)  # But NOT other instances of that class
+

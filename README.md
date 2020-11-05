@@ -24,18 +24,25 @@ class Dog:
 ```
 ## OOP (Object Oriented Programming)
 ### Four pillars
-- Abstraction: Showing only what's necessary of an object the other parts of your program
-- Encapsulation: Wrapping up data (class variables) and functionality (methods) together into a single place
-- Inheritance: An object can acquire the properties of another (super) object. This helps to reuse, customise and 
-enhance existing code
-- Polymorphism: Refers to a programming languages ability to process objects differently depending on their data type 
-or class. More specifically it is the ability to redefine methods for derived classes
+#### Abstraction
+- Reduces complexity and isolate impact of changes
+- Showing only what's necessary of an object the other parts of your program
+#### Encapsulation
+- Reduces complexity and increases reusability 
+- Wrapping up data (class variables) and functionality (methods) together into a single place
+#### Inheritance
+- Eliminates redundant code
+- An object can acquire the properties of another (super) object
+- This helps to reuse, customise and enhance existing code. We can use all functions and variables from parent class
+#### Polymorphism (morph - form, poly - many) 
+- Refactor code or case statements 
+- Refers to a programming languages ability to process objects differently depending on their data type 
+or class
+- More specifically it is the ability to redefine methods for derived classes
+- It allows us to change behaviours or attributes/variables
 ### Creating an object
-- Syntax is
-```
-object_name = ClassName()
-```
-- An example is
+- Syntax is ```object_name = ClassName()```
+- An example is 
 ```
 fluffy = Dog()  # Creating an object of our Dog class
 ```
@@ -48,7 +55,7 @@ object_name.class_function()
 - Or any other classes that inherit from it
 - If you change class values for a specific object i.e. using ```object_name.class_variable = new_value```, it will NOT affect other instances of that class
 ## Tasks
-### Task
+### Task 1
 - Create a Cat class with one function that returns a "Meow"
 - Include 2 class variables, 3 objects
 - Display all information with each object
