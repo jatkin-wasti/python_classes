@@ -28,12 +28,13 @@ class Dog:
 - Reduces complexity and isolate impact of changes
 - Showing only what's necessary of an object the other parts of your program
 #### Encapsulation
-- Reduces complexity and increases reusability 
+- Reduces access and increases reusability 
 - Wrapping up data (class variables) and functionality (methods) together into a single place
 #### Inheritance
 - Eliminates redundant code
 - An object can acquire the properties of another (super) object
-- This helps to reuse, customise and enhance existing code. We can use all functions and variables from parent class
+- This helps to reuse, customise and enhance existing code
+- We can use all functions and variables from parent class
 #### Polymorphism (morph - form, poly - many) 
 - Refactor code or case statements 
 - Refers to a programming languages ability to process objects differently depending on their data type 
