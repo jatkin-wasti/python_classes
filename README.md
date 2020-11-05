@@ -22,6 +22,16 @@ class Dog:
     def bark(self):
         return "woof"
 ```
+### Initialising a class
+- Syntax is
+```
+def __init__(self, parameter1, parameter2):
+    self.parameter1 = parameter1
+    self.parameter2 = parameter2
+```
+- When creating instances of this class, we must pass in arguments that match up
+with these parameters
+- This is useful to assign values to object properties that are important for that class
 ## OOP (Object Oriented Programming)
 ### Four pillars
 #### Abstraction
